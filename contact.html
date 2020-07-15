@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Contacts</title>
+</head>
+<style>
+    div {
+      background-color: rgb(119, 64, 223);
+      width: 850px;
+      border: 5px solid rgb(33, 6, 65);
+      padding: 50px;
+      margin: 150px;
+    }
+    </style>
+<body style="background: url(3.jpg); height: 100vh;background-size: cover;background-position: center">
+    <center><h1><b>Contact Details</b></h1></center>
+    <div>
+    <table>
+        <tr>
+            <td class="label_col">First Name:</td>
+            <td class="input_col"><input name="firstname" id="firstname" type="text"  placeholder="enter first name" required></td>
+            <td class="feedback_col"><span id="firstNamePrompt">&nbsp;</span></td>
+        </tr>
+        <tr>
+            <td class="label_col">Last Name:</td>
+            <td class="input_col"><input name="lastname" id="lastname" type="text"  placeholder="enter last name" required></td>
+            <td class="feedback_col"><span id="firstLastPrompt">&nbsp;</span></td>
+        </tr>
+        <tr>
+            <td class="label_col">Phone Number:</td>
+            <td class="input_col"><input name="phone" id="phone" type="text"  placeholder="xxx-xxx-xxxx;" required></td>
+            <td class="feedback_col"><span id="phonePrompt"></span></td>
+        </tr>
+        
+    </table>
+   <input style="background-color:rgb(180, 138, 199); color:rgb(83, 8, 95);padding: 4px;" type="submit" value="Submit">
+
+    </div>
+</body>
+</html>
